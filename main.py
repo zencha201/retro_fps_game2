@@ -5,6 +5,7 @@ Controls:
   Space / A button   : Shoot
 """
 
+import asyncio
 import math
 import random
 from collections import deque
@@ -815,4 +816,9 @@ class App:
 # Entry Point
 # ============================================================
 
-App()
+
+async def main():
+    App()
+
+
+asyncio.run(main())
