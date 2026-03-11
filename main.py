@@ -8,7 +8,6 @@ Controls:
 import asyncio
 import math
 import random
-import sys
 from collections import deque
 
 import pyxel
@@ -822,7 +821,4 @@ async def main():
     App()
 
 
-if sys.platform == "emscripten":
-    asyncio.ensure_future(main())
-else:
-    asyncio.run(main())
+asyncio.run(main())
