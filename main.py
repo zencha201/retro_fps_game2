@@ -5,10 +5,8 @@ Controls:
   Space / A button   : Shoot
 """
 
-import asyncio
 import math
 import random
-import sys
 from collections import deque
 
 import pyxel
@@ -818,11 +816,8 @@ class App:
 # ============================================================
 
 
-async def main():
+def main():
     App()
 
 
-if sys.platform == "emscripten":
-    asyncio.ensure_future(main())
-else:
-    asyncio.run(main())
+main()
