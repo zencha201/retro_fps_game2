@@ -8,10 +8,10 @@ A retro-style first-person shooter built with **Python** and the **[Pyxel](https
 
 Click the badge below to launch the game instantly in your browser (virtual gamepad included):
 
-[![Play on Pyxel Web](https://img.shields.io/badge/Play-Pyxel%20Web-blue?style=for-the-badge)](https://kitao.github.io/pyxel/wasm/launcher/?run=zencha201/retro_fps_game2/main&gamepad=enabled)
+[![Play on Pyxel Web](https://img.shields.io/badge/Play-Pyxel%20Web-blue?style=for-the-badge)](https://kitao.github.io/pyxel/wasm/launcher/?play=zencha201/retro_fps_game2/main/retro_fps_game2&gamepad=enabled)
 
 > **Direct link:**
-> `https://kitao.github.io/pyxel/wasm/launcher/?run=zencha201/retro_fps_game2/main&gamepad=enabled`
+> `https://kitao.github.io/pyxel/wasm/launcher/?play=zencha201/retro_fps_game2/main/retro_fps_game2&gamepad=enabled`
 
 ---
 
